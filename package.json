@@ -1,0 +1,40 @@
+{
+  "name": "cn-stock-api",
+  "version": "0.1.0",
+  "description": "中国与美股常用行情数据源封装，支持东方财富、新浪、雪球",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "examples",
+    "README.md",
+    "README.en.md",
+    ".gitignore"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "stock",
+    "finance",
+    "eastmoney",
+    "sina",
+    "xueqiu",
+    "china",
+    "kline"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
