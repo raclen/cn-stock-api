@@ -1,5 +1,9 @@
 # cn-stock-api
 
+[![npm version](https://img.shields.io/npm/v/cn-stock-api.svg)](https://www.npmjs.com/package/cn-stock-api)
+[![npm downloads](https://img.shields.io/npm/dm/cn-stock-api.svg)](https://www.npmjs.com/package/cn-stock-api)
+[![license](https://img.shields.io/npm/l/cn-stock-api.svg)](https://www.npmjs.com/package/cn-stock-api)
+
 一个面向 Node.js 的轻量 npm 包，统一封装东方财富、新浪、雪球三个常用行情数据源。
 
 ## 特性
@@ -16,6 +20,9 @@
 ```bash
 npm install cn-stock-api
 ```
+
+npm 页面：https://www.npmjs.com/package/cn-stock-api
+仓库地址：https://github.com/raclen/cn-stock-api
 
 ## 快速开始
 

@@ -1,6 +1,6 @@
 {
   "name": "cn-stock-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "中国与美股常用行情数据源封装，支持东方财富、新浪、雪球",
   "type": "module",
   "main": "./src/index.js",
@@ -22,13 +22,27 @@
   },
   "keywords": [
     "stock",
+    "stocks",
     "finance",
+    "market-data",
+    "quote",
+    "realtime",
+    "kline",
     "eastmoney",
     "sina",
     "xueqiu",
-    "china",
-    "kline"
+    "a-share",
+    "us-stocks",
+    "china"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raclen/cn-stock-api.git"
+  },
+  "homepage": "https://github.com/raclen/cn-stock-api#readme",
+  "bugs": {
+    "url": "https://github.com/raclen/cn-stock-api/issues"
+  },
   "author": "",
   "license": "MIT",
   "engines": {
